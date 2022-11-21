@@ -18,7 +18,7 @@ struct TextView: View {
             .frame(width: 300, height: 200, alignment: .center)
             .overlay(
                 RoundedRectangle(cornerRadius: 200)
-                    .stroke(Color.blue, lineWidth: 5)
+                    .stroke(Color.blue, lineWidth: 10)
             )
             .foregroundColor(.black)
     }
@@ -35,7 +35,7 @@ struct TextViewPin: View {
             .frame(width: 300, height: 200, alignment: .center)
             .overlay(
                 RoundedRectangle(cornerRadius: 200)
-                    .stroke(Color("ColorPink"), lineWidth: 5)
+                    .stroke(Color("ColorPink"), lineWidth: 10)
             )
             .foregroundColor(.black)
     }
@@ -52,7 +52,7 @@ struct TextViewGre: View {
             .frame(width: 300, height: 200, alignment: .center)
             .overlay(
                 RoundedRectangle(cornerRadius: 200)
-                    .stroke(Color("ColorGreen"), lineWidth: 5)
+                    .stroke(Color("ColorGreen"), lineWidth: 10)
             )
             .foregroundColor(.black)
     }

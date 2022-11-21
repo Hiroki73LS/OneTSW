@@ -145,7 +145,7 @@ struct SecondView: View {
                     .border(Color.black, width: 2)
                     }
                     HStack{
-                        Text("(じかんをはかろう-OneTouchStopWatch- Ver.1.0)")
+                        Text("(じかんをはかろう-OneTouchStopWatch- Ver.1.1)")
                             .font(.subheadline)
                             .frame(maxWidth: .infinity, alignment: .center)
                     }
