@@ -26,7 +26,7 @@ struct FirstLaunch: View {
                     }.frame(width: (screen2?.width ?? 100) * 0.95 , height: 120)
                     .border(Color.black, width: 2)
                     
-                    Spacer().frame(height: 40)
+                    Spacer().frame(height: 20)
                     Text(" 【 測定時間について 】")
                     VStack(alignment: .leading){
                         Text("本アプリは簡単操作かつ数字が大きく")
